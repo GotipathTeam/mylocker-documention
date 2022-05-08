@@ -38,13 +38,3 @@
 - Run `php artisan optimize:clear`
 - Run `valet link` to serve the application on `goplay.test` domain
 
-
-## Git Etiquette's
-#### General guidelines
-* Try not to push anything without a work item (or issue)
-* Never ever push code directly to `main`
-* Always create a `feature branch` for your task
-* Your branch name, Pull/Merge Request title should be meaningful, very, very meaningful
-* Make sure you tested your code well before creating a Pull/Merge Request
-* Don't do `git pull`. Do `rebase`. First do `git fetch origin` and then `git rebase origin/master` (or maybe `main` instead of `master`). The thing is, `git pull` adds so many garbages. We need to keep our git history cleaner. Do this when you think there are some changes in master branch. And let's say you got a `merge conflict`. Then do the above mentioned stuff and don't forget to add your files (which had merge conflicts) manually (i.e. `git add file_name`). Do not use `git add .`. Such things don't work.
-
