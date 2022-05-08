@@ -13,12 +13,14 @@
 - PDO PHP Extension
 - Tokenizer PHP Extension
 - XML PHP Extension
-- php-curl PHP Extension
-- imagick PHP Extension
+- Php-curl PHP Extension
+- Imagick PHP Extension
 - Ghostscript
 - Redis
+- Nginx
 - Mysql 8.0
-- supervisor
+- Supervisor
+
 
 ### Before Getting Started
 
