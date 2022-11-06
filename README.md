@@ -1,8 +1,6 @@
-<p align="center"><a href="https://gotipath.com" target="_blank"><img src="https://mycdn.gotipath.com/wp-content/uploads/2021/04/gotipath-logo-web.png" width="200"></a></p>
+<p align="center"><a href="https://gotipath.com" target="_blank"><img src="./logos/mygov.png" width="200"></a></p>
 
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="200"></a></p>
 ## Server Requirements
-
 - PHP >= 8.1
 - BCMath PHP Extension
 - Ctype PHP Extension
@@ -162,7 +160,7 @@ return (x + y)
 ```php
 // Good
 class DemoClass {
-  // .... 
+  // ....
 }
 ```
 
@@ -171,9 +169,9 @@ class DemoClass {
 ```php
 // Good
 function myFunction () {
-  // .... 
+  // ....
 }
 ```
 
 * Avoid `single letter` variable name as much as possible
-* Remember, good code hardly needs comments. So all the variable and function names should convey a clear message 
+* Remember, good code hardly needs comments. So all the variable and function names should convey a clear message
