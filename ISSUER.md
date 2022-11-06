@@ -43,3 +43,30 @@ Required parameters
     }
 }
 ```
+
+### Get Document Required Fields
+```bash
+  POST https://mylocker.stage.mygov.bd/api/issuers/fields/{document_id}
+  //request body
+  {
+    "citizen_info": {
+        "citizen_id": "317321731",
+        "nid": "391231391932"
+    },
+    "issuer_info": {
+        "name": "NID",
+        "office_id": "NID_31318",
+        "ministry_name": "NID",
+        "email": "nid@mygov.com"
+    },
+    "document_type": "DBID",
+    "document_id": "050340e3-c15a-49e9-bbcb-fd275a8cd5be",
+    "document_category": "personal",
+    "file": "", //multipart/form-data
+    "payload": {
+        "institution_name": "Xysx",
+        "business_type": "xyz",
+        "name": "test"
+    }
+}
+```
