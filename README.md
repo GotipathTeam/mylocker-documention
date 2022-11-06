@@ -1,6 +1,6 @@
 
 ## MyLocker Installation Guide
-<p align="center"><a href="https://gotipath.com" target="_blank"><img src="./logos/mygov.png" width="200"></a></p>
+<p align="center"><a href="https://gotipath.com" target="_blank"><img src="./logos/myocker.png" width="200"></a></p>
 
 ## Server Requirements
 - PHP >= 8.1
