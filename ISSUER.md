@@ -44,7 +44,7 @@ Required parameters
 }
 ```
 
-### Get Document Required Fields
+### Create Single Document
 ```bash
   POST https://mylocker.stage.mygov.bd/api/issuers/import
   //request body
