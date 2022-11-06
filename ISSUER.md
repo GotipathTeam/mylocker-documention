@@ -46,7 +46,7 @@ Required parameters
 
 ### Get Document Required Fields
 ```bash
-  POST https://mylocker.stage.mygov.bd/api/issuers/fields/{document_id}
+  POST https://mylocker.stage.mygov.bd/api/issuers/import
   //request body
   {
     "citizen_info": {
