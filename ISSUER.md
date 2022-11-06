@@ -7,7 +7,6 @@
 - Add Document Type
 - Create Access Token
 - Document Format.
-
 ## Push API Request Flow
 Required parameters
 | Name   |     Format      |  Description |
@@ -15,8 +14,8 @@ Required parameters
 | API Acess token |  Authorization: Bearer <token> | API Token generated from the Issuer Profile 'API Tokens' page |
 
 ### Get Document Required Fields
-```json
-    https://mylocker.stage.mygov.bd/api/issuers/fields/{document_id}
+```bash
+  GET https://mylocker.stage.mygov.bd/api/issuers/fields/{document_id}
 ```
 ```json
 {
